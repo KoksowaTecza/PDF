@@ -12,6 +12,7 @@ public class Test {
 		for(int i=0; i<11; i++){
 		PdfIssueItem issueItem  = container.createIssueItem();
 		//to bedzie do zmiany, chcialem stwozrzyc enuma ze wszytskimi mozliwymi statusami w jira
+		//zmiana edycja 
 		issueItem.addStateBelt(IssueState.CZERWONY);
 		issueItem.addHeaderContent("To jest testowy issue", IssueState.CZERWONY);
 		
