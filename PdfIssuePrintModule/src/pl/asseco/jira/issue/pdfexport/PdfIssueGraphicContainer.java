@@ -56,7 +56,7 @@ public class PdfIssueGraphicContainer {
 	 */
 	public void addIssueToContainer(PdfPTable container){
 		PdfPCell cell = new PdfPCell(container);
-		cell.setPadding(4);
+		cell.setPadding(10);
 		cell.setBorder(Rectangle.NO_BORDER);
 		table.addCell(cell);
 		itemsSize++;
