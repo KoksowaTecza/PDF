@@ -20,7 +20,7 @@ import com.itextpdf.text.pdf.PdfPTable;
  */
 public class PdfIssueItem {
 	private PdfPTable table;
-	private Font headFont = new Font(Font.FontFamily.HELVETICA, 14, Font.BOLD);
+	private Font headFont = new Font(Font.FontFamily.HELVETICA, 13, Font.BOLD);
 	private Font boldFont = new Font(Font.FontFamily.HELVETICA  , 12, Font.BOLD);
 	private Font defaultFont = new Font(Font.FontFamily.HELVETICA  , 12, Font.NORMAL);
 	
