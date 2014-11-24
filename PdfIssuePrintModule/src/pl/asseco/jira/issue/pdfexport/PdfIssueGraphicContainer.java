@@ -36,7 +36,7 @@ public class PdfIssueGraphicContainer {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (DocumentException e) {
-			// TODO Auto-generated catch block
+			// TODO cos tam cosa 
 			e.printStackTrace();
 		}
 	}
@@ -56,7 +56,7 @@ public class PdfIssueGraphicContainer {
 	 */
 	public void addIssueToContainer(PdfPTable container){
 		PdfPCell cell = new PdfPCell(container);
-		cell.setPadding(5);
+		cell.setPadding(6);
 		cell.setBorder(Rectangle.NO_BORDER);
 		table.addCell(cell);
 		itemsSize++;
