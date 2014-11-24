@@ -14,7 +14,7 @@ import com.itextpdf.text.pdf.PdfWriter;
 
 /**
  * 
- * JiraIssueKontenerPdf na wszytskie issue. Jeden Issue reprezentowany jest przez PdfIssueItem
+ * JiraIssueKontenerPdf na wszysfasfstskie issue. Jeden Issue reprezentowany jest przez PdfIssueItem
  * 
  * @author dawid
  *
@@ -56,7 +56,7 @@ public class PdfIssueGraphicContainer {
 	 */
 	public void addIssueToContainer(PdfPTable container){
 		PdfPCell cell = new PdfPCell(container);
-		cell.setPadding(5);
+		cell.setPadding(4);
 		cell.setBorder(Rectangle.NO_BORDER);
 		table.addCell(cell);
 		itemsSize++;
