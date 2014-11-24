@@ -18,9 +18,8 @@ public class Test {
 		
 		//dodanie do sekcji key-value wartosci
 		Map<String, String> map3 = new LinkedHashMap<String, String>();
-		map3.put("Autor", "Dawid Kurek");
-		map3.put("Otwarty", "19.11.2014");
-		map3.put("Obserwowany", "Bartosz Mrowka, Damian Biernat, Mateusz Sochacki");
+		map3.put("Autor", "Dawid Mearek");
+		map3.put("Obserwowany", "asdfsvs Mrowka, Damian Biernat, Mateusz Sochacki");
 		issueItem.addKeyValueContent(map3);
 		
 		//doanie do sckcji descrption warotsci
